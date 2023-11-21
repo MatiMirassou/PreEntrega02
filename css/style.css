@@ -1,0 +1,642 @@
+/* Fonts */
+
+@font-face {
+    font-family: "pixeled";
+    src: url(../fonts/Pixeled.ttf);
+}
+
+@font-face {
+    font-family: "dstype";
+    src: url(../fonts/DSType.otf);
+}
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para Header */
+
+header {
+    background-color: #f6a862;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.logo {
+    height: 60px; 
+    width: auto;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: #dfdfdf;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #dfdfdf;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.nav_text:hover{
+    color: #595957;
+}
+
+.nav_icons{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header div a{
+    color: #dfdfdf;
+    font-size: 28px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+header div a:hover{
+    color: #595957;
+}
+
+
+/* Estilos para Main*/
+
+main{
+    height: 500px;
+    width: 100%;
+    background-color: #595957;
+    display: flex;
+    justify-content: center;
+}
+
+.call{
+    color: transparent;
+    background-image: url(/images/NFT_back.png);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: pixeled;
+    color: #dfdfdf;
+    text-shadow: 0 2px 5px black;
+    font-size: 48px;
+}
+
+h2{
+    color: #dfdfdf;
+    font-size: 24px;
+    margin-top: 0;
+    text-shadow: 0 2px 5px black;
+}
+
+.buynow{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f6a862;
+    width: 80px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.call a:hover{
+    background-color: #595957;
+}
+
+
+/* Estilos para Sections*/
+
+
+.section01 {
+    background-color: #595957;
+    height: 500px;
+    width: 100%;
+}
+
+#recuadro02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding: 50px 100px 50px 100px;
+}
+
+
+#img01 {
+    height: 400px;
+    width: auto;
+}
+
+.title01 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.learnmore {
+    text-decoration: none;
+    right: 300px;
+    bottom: 80px;
+    color: #fff;
+    background-color: #ab7690;
+    width: 80px;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 170px;
+}
+
+.learnmore:hover{
+    background-color:#dfdfdf;
+    color: #595957;
+}
+
+.section02 {
+    background-color: #dfdfdf;
+    height: 500px;
+    width: 100%;
+}
+
+#recuadro {
+    background-color: #ab7690;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 25px;
+    height: 400px;
+    width: 80%;
+    left: 100px;
+    top: 50px;
+}
+
+#imgdigital {
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    font-size: 24px;
+    top: 20%;
+    left: 60%;
+    margin-bottom: 10px;
+}
+
+.parrafo01 {
+    color: #444444;
+    font-size: 16px;
+    top: 30%;
+    left: 55%;
+    margin-bottom: 30px;
+}
+
+.buynow2 {
+    text-decoration: none;
+    color: #595957;
+    background-color: #dfdfdf;
+    width: 80px;
+    margin: 20px 20px 20px 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.buynow2:hover {
+    background-color: #595957;
+    color: white;
+}
+
+/* Estilos para Footer */
+
+footer {
+    padding:20px 0;
+    background-color:#595957;
+}
+
+.followus{
+    text-align:center;
+    color:#dfdfdf;
+    font-weight: 800;
+}
+
+footer ul {
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    color: #dfdfdf;
+}
+
+footer li {
+    display: inline;
+    padding-right: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+footer div a{
+    margin: 10px;
+    font-size:24px;
+    display: inline;
+    position: relative;
+    left: 42%;
+}
+
+footer i{
+    text-align: center;
+    color: #dfdfdf;
+    left: 300px;
+}
+
+footer i:hover{
+    color: #ab7690;
+}
+
+footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#dfdfdf;
+    margin-bottom:0;
+}
+
+/* Estilos para About Us */
+
+#main_about{
+display: inline-block;
+}
+
+.aboutus-section01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #747473;
+    width: 100%;
+    height: 500px;
+}
+
+
+.DA-vertical {
+    height: 200px;
+    width: auto;
+    margin: 10px 50px 10px 50px;
+}
+
+.aboutus-parrafo01 {
+    color: #dfdfdf;
+    font-size: 24px;
+
+}
+
+
+.aboutus-section02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 600px;
+}
+
+
+.aboutus-parrafo02 {
+    color: #595957;
+    padding-right: 50px;
+}
+
+.aboutus-video {
+    height: 300px;
+    width: auto;
+    margin-left: 20px;
+}
+
+/* Estilos para Artist Page */
+
+#main_artist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+.DAh1{
+    height: 150px;
+    width: auto;
+    margin: 20px 0px 5px 10px;
+}
+
+.artist_title {
+    color: #dfdfdf;
+    background-color: #595957;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "dstype";
+}
+
+h3{
+    color: #dfdfdf;
+    font-size: 24px;
+    margin: 5px 0px 5px 0px;
+}
+
+.artist-section01  {
+    position: relative;
+    display: inline-block;
+    background-color:#c6c6c6;
+    width: 100%;
+    height: 500px;
+}
+
+
+.artist-section02  {
+    position: relative;
+    display: inline-block;
+    background-color: #747473;
+    width: 100%;
+    height: 500px;
+}
+
+.artist-section03  {
+    position: relative;
+    display: inline-block;
+    background-color:#c6c6c6;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.artist-title01 {
+    color: #444444;
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-decoration: underline;
+}
+
+.artist-parrafo01 {
+    color: #444444;
+    font-size: 14px;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.artist-beeple01 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6%;
+}
+
+.artist-beeple02 {
+    position: absolute;
+    width: 200px;
+    margin-left: 63%;
+    margin-top: 15%;
+}
+
+.artist-title02 {
+    color: white;
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 60%;
+    text-decoration: underline;
+}
+
+.artist-parrafo02 {
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 60%;
+}
+
+.artist-video01 {
+    width: 350px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.artist-title03 {
+    color: #444444;
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-decoration: underline;
+}
+
+.artist-parrafo03 {
+    color: #444444;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.artist-video02 {
+    width: 350px;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 6%;
+}
+
+/* Estilos para Marketplace */
+
+#main_marketplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    background-color: #dfdfdf;
+}
+
+.DAh1{
+    padding-left: 40px;
+}
+
+.welcome{
+    color: #595957;
+}
+
+h6 {
+    color: #595957;
+    font-size: 60px;
+    z-index: -10;
+    background-color: #dfdfdf;
+}
+
+#section_market{
+    background-color: #dfdfdf;
+    display:inline-block;
+    width: 100%;
+}
+
+
+#recuadro-mk01 {
+    background-color: #ab7690;
+    margin: 10px;
+    border-radius: 25px;
+    height: 350px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+
+#recuadro-mk02 {
+    background-color: #f6a764;
+    margin: 10px;
+    border-radius: 25px;
+    height: 350px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+
+.video-mk01 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+.video-mk02 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+.video-mk03 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 62%;
+    border-radius: 20px;
+}
+
+.video-mk04 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+.video-mk05 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+.video-mk06 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 62%;
+    border-radius: 20px;
+}
+
+
+
+/* Estilos para Contacto */
+
+#main_contact{
+    padding-top: 20px;
+    background-color: #595957;
+}
+
+.elemento,  select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    background-color: #a2504c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=reset]:hover {
+    background-color: #aa2b04;
+}
+
+.contenedor {
+    display: block;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.hr{
+    padding-top: 20px;
+    background-color: #595957;
+}
