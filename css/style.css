@@ -15,62 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* Estilos para Header */
-
-header {
-    background-color: #f6a862;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
-}
-
-
-.logo {
-    height: 60px; 
-    width: auto;
-}
-
-nav ul li{
-    list-style: none;
-    text-decoration: none;
-    display: inline-block;
-    color: #dfdfdf;
-    font-weight: 100;
-    padding-left: 10px;
-}
-
-nav a{
-    text-decoration: none;
-    color: #dfdfdf;
-    font-size: 20px;
-    font-weight: 100;
-    padding-left: 10px;
-}
-
-.nav_text:hover{
-    color: #595957;
-}
-
-.nav_icons{
-    height: 80px;
-    display: flex;
-    align-items: center;
-}
-
-header div a{
-    color: #dfdfdf;
-    font-size: 28px;
-    margin-right: 20px;
-    padding-right: 20px;
-}
-
-header div a:hover{
-    color: #595957;
+    font-family: dstype, Geneva, Tahoma, sans-serif;
 }
 
 
