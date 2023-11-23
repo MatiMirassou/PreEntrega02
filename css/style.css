@@ -18,44 +18,50 @@
     font-family: dstype, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    background-color: #595957;
+}
 
 /* Estilos para Main*/
 
-main{
-    height: 500px;
-    width: 100%;
-    background-color: #595957;
-    display: flex;
-    justify-content: center;
+#hero{
+background-color: #595957;
+margin: 20px;
+width: 100%;
 }
 
-.call{
+#hero_img{
     color: transparent;
     background-image: url(/images/NFT_back.png);
+    border-radius: 10px;
     background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    height: 400px;
-    width: 900px;
-    border-radius: 20px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 300px;
 }
+
+@media (max-width: 991px) {
+    #hero_img{
+        margin: 10px;
+    }
+}
+
 
 h1{
     font-family: pixeled;
+    line-height: 1.5;
     color: #dfdfdf;
     text-shadow: 0 2px 5px black;
     font-size: 48px;
 }
 
+@media (max-width: 991px) {
+    h1{
+        font-size: 36px;
+    }
+}
+
 h2{
     color: #dfdfdf;
     font-size: 24px;
-    margin-top: 0;
     text-shadow: 0 2px 5px black;
 }
 
@@ -69,30 +75,13 @@ h2{
     border-radius: 7px;
 }
 
-.call a:hover{
-    background-color: #595957;
+.buynow:hover{
+    background-color: #dfdfdf;
+    color: #595957;
 }
 
 
 /* Estilos para Sections*/
-
-
-.section01 {
-    background-color: #595957;
-    height: 500px;
-    width: 100%;
-}
-
-#recuadro02 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 400px;
-    width: 100%;
-    padding: 50px 100px 50px 100px;
-}
-
 
 #img01 {
     height: 400px;
@@ -122,47 +111,36 @@ h2{
     color: #595957;
 }
 
-.section02 {
-    background-color: #dfdfdf;
-    height: 500px;
-    width: 100%;
+@media (max-width: 991px) {
+    #section01{
+        margin: 10px;
+    }
+    #section02-texto{
+        margin-top: 10px;
+    }
 }
 
 #recuadro {
     background-color: #ab7690;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
     border-radius: 25px;
-    height: 400px;
-    width: 80%;
-    left: 100px;
-    top: 50px;
 }
 
 #imgdigital {
-    height: 300px;
-    width: auto;
-    margin-left: 50px;
+    height: auto;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 h4 {
-    margin: 0;
-    padding: 0;
     color: #444444;
     font-size: 24px;
-    top: 20%;
-    left: 60%;
-    margin-bottom: 10px;
 }
+
 
 .parrafo01 {
     color: #444444;
     font-size: 16px;
-    top: 30%;
-    left: 55%;
-    margin-bottom: 30px;
 }
 
 .buynow2 {
@@ -170,7 +148,6 @@ h4 {
     color: #595957;
     background-color: #dfdfdf;
     width: 80px;
-    margin: 20px 20px 20px 100px;
     padding: 5px;
     border-radius: 7px;
 }
